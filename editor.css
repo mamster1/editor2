@@ -1,0 +1,89 @@
+* {
+  box-sizing: border-box;
+}
+
+
+form {
+  background-color: #ccccff;
+  width: 100%;
+  margin: auto;
+  padding: 10px;
+  border: 5px solid #6666ff;
+}
+
+input {
+  margin: 10px;
+}
+
+.blad {
+  width: 100%;
+  margin: auto;
+}
+
+.blad:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.linkerkant {
+  float: left;
+  width: 50%;
+}
+
+.rechterkant {
+  float: left;
+  width: 50%;
+  padding-left: 40px;
+}
+
+.plaatje {
+  text-align: center;
+  margin: auto;
+  background-color: #ccccff;
+  width: 100%;
+  margin: auto;
+  padding-top: 10px;
+
+}
+
+.artikel {
+  background-color: #ccccff;
+  width: 100%;
+  margin: auto;
+  padding-top: 10px;
+
+}
+
+.intLink {
+  cursor: pointer;
+}
+
+img.intLink {
+  border: 1px solid black;
+  border-radius: 20%;
+}
+
+#toolBar1 select {
+  font-size: 14px;
+}
+
+#textBox {
+  width: 540px;
+  height: 360px;
+  border: 1px #000000 solid;
+  padding: 8px;
+  overflow: scroll;
+  margin: auto;
+}
+
+#textBox #sourceText {
+  padding: 0;
+  margin: 0;
+  min-width: 498px;
+  min-height: 360px;
+}
+
+#editMode label {
+  cursor: pointer;
+}
